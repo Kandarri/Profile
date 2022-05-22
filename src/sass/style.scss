@@ -14,8 +14,18 @@
     margin: 0 auto;
 }
 
+.devider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin-top: 25px;
+    margin: 25px auto 0 auto;
+}
+
 @import 'blocks/promo.scss';
 @import 'blocks/title';
 @import './blocks/botton';
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
+@import 'blocks/bio';
+@import 'blocks/resume';
