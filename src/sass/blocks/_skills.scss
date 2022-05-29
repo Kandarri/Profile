@@ -45,7 +45,7 @@
         padding-top: 120px;
         display: grid;
         grid-template-columns: repeat(3,350px);
-        grid-template-rows: repeat(3,minmax(70px));
+        grid-template-rows: repeat(2,minmax(min-content,70px));
         column-gap: 45px;
         row-gap: 30px;
     }
